@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: hello-service
+  cloud:
+    config:
+      uri: http://localhost:8888
+
+server:
+  port: 8010 
+  
+message: hello-service  from spring boot config server
